@@ -4,9 +4,58 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Solytech</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header.hero {
+      background-color: #0073e6;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    section {
+      background: white;
+      padding: 40px 20px;
+      margin: 10px auto;
+      max-width: 900px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .cursos ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    a.boton {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0073e6;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    a.boton:hover {
+      background-color: #005bb5;
+    }
+  </style>
 </head>
 <body>
+
   <header class="hero">
     <h1>Bienvenidos a Solytech</h1>
     <p>Academia de tecnología e innovación</p>
@@ -32,12 +81,15 @@
 
   <section>
     <h2>Contáctanos</h2>
-    <p>📞 WhatsApp: +593 999 999 999</p>
-    <p>📧 Email: info@solytech.info</p>
+    <p>📞 WhatsApp: <a href="https://wa.me/593999999999" target="_blank">+593 999 999 999</a></p>
+    <p>📧 Email: <a href="mailto:info@solytech.info">info@solytech.info</a></p>
+    <a class="boton" href="https://wa.me/593999999999" target="_blank">¡Escríbenos por WhatsApp!</a>
   </section>
 
   <footer>
     <p>© 2025 Solytech – Todos los derechos reservados</p>
   </footer>
+
 </body>
 </html>
+
